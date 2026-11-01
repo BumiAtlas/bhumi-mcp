@@ -2,7 +2,7 @@
 
 Sambungkan Claude, ChatGPT atau Cursor ke data pertanahan Indonesia lewat Model Context Protocol (MCP). Tanyakan persil, sertifikat, HGU, zonasi RDTR OSS, tambang dan risiko banjir dengan bahasa biasa, tanpa membuka peta satu per satu.
 
-Dibuat untuk **property developer**, agen properti, konsultan, notaris/PPAT, analis kepatuhan dan peneliti yang selama ini mengecek tanah lewat **Bhumi ATR/BPN**, GISTARU, OSS atau platform properti seperti **Perare**, dan ingin semuanya dalam satu pertanyaan. Data dijalankan oleh [BumiAtlas](https://bumiatlas.com); informasi lengkap di [bhumi.ai.id](https://bhumi.ai.id).
+Dibuat untuk **property developer**, agen properti, konsultan, notaris/PPAT, analis kepatuhan dan peneliti yang selama ini mengecek tanah lewat **Bhumi ATR/BPN**, GISTARU, OSS atau platform properti seperti **Perare.io**, dan ingin semuanya dalam satu pertanyaan. Data dijalankan oleh [BumiAtlas](https://bumiatlas.com); informasi lengkap di [bhumi.ai.id](https://bhumi.ai.id).
 
 > Bukan aplikasi resmi dan tidak berafiliasi dengan Kementerian ATR/BPN, OSS maupun Perare. Data berupa salinan sumber publik, bukan bukti kepemilikan atau izin yang sah.
 
@@ -34,6 +34,7 @@ Tambahkan sebagai custom connector di klien MCP mana pun, lalu masuk dengan Goog
 | `Parcel_search` | Cari bidang dari nomor sertifikat (14 digit), NIB, kode desa + NIB, atau koordinat `lintang, bujur` |
 | `Parcel_get` | Catatan lengkap satu bidang: jenis hak, luas tertulis vs luas peta, sisi, desa, zonasi, zona nilai tanah, risiko banjir; batas dalam GeoJSON |
 | `Parcel_overlaps` | Bidang, HGU, konsesi dan kawasan konservasi yang beririsan dengan satu bidang, lengkap dengan luas irisan |
+| `Parcel_image` | Citra satelit atau peta jalan dari satu bidang atau titik, dengan semua bidang di sekitarnya digaris dan diberi label NIB |
 | `Parcel_find_village` | Cari desa menurut BPN dari nama atau kode, atau baca nomor sertifikat menjadi desa dan kantor pertanahan |
 
 ### HGU dan konsesi

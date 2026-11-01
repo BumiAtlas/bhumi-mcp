@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.BumiAtlas/bhumi",
   "title": "Bhumi MCP: Data Tanah ATR/BPN, RDTR OSS, HGU & Konsesi",
-  "description": "Persil ATR/BPN, HGU, konsesi tambang, zonasi RDTR OSS dan bahaya banjir untuk asisten AI. Tidak berafiliasi dengan ATR/BPN.",
+  "description": "Persil Bhumi ATR/BPN, HGU, konsesi tambang, zonasi RDTR OSS.",
   "version": "1.0.0",
   "repository": {
     "url": "https://github.com/BumiAtlas/bhumi-mcp",
